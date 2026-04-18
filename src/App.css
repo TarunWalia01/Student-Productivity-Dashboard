@@ -1,5 +1,5 @@
 body {
-  background: #eef2ff;
+  background: linear-gradient(135deg, #567bd8 0%, #201829 100%);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -67,7 +67,7 @@ button {
 .summary-panel {
   padding: 22px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(15, 3, 3, 0.95);
   box-shadow: 0 18px 35px rgba(15, 35, 90, 0.08);
   color: #1f2a56;
   transition: all 0.3s ease;
@@ -86,6 +86,7 @@ button {
 
 .summary-panel p {
   margin: 0;
+  color: white;
   font-size: 1.6rem;
   font-weight: 700;
 }
@@ -100,7 +101,7 @@ button {
 .game-card {
   border-radius: 24px;
   padding: 28px;
-  background: rgba(255, 255, 255, 0.98);
+  background: rgba(15, 4, 4, 0.98);
   box-shadow: 0 18px 40px rgba(15, 35, 90, 0.08);
   color: #1f2a56;
   min-height: 220px;
@@ -121,7 +122,7 @@ button {
 
 .game-card p {
   margin: 0 0 20px;
-  color: #5d678e;
+  color: white;
   line-height: 1.7;
 }
 
@@ -129,8 +130,8 @@ button {
   padding: 14px 22px;
   border: none;
   border-radius: 16px;
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  color: white;
+  background: white;
+  color: rgb(30, 37, 100);
   font-weight: 700;
   cursor: pointer;
   transition: all 0.3s ease;

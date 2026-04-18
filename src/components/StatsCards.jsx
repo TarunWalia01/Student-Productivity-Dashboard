@@ -52,9 +52,9 @@ function StatsCards({ student }) {
           <div
             key={stat.id}
             className="stat-card"
-            style={{ borderLeftColor: stat.color }}
+            // style={{ borderLeftColor: stat.color }}
           >
-            <div className="stat-icon">{stat.icon}</div>
+            {/* <div className="stat-icon">{stat.icon}</div> */}
             <div className="stat-info">
               <h3>{stat.title}</h3>
               <p className="stat-value">{stat.value}</p>

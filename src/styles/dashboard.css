@@ -1,13 +1,13 @@
 .dashboard {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #567bd8 0%, #201829 100%);
   padding: 40px 20px;
 }
 
 .dashboard-header {
   text-align: center;
-  color: white;
+  color: rgb(240, 247, 241);
   margin-bottom: 40px;
   animation: slideDown 0.6s ease-out;
 }
@@ -46,7 +46,7 @@
   font-size: 1em;
   font-weight: 600;
   transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
