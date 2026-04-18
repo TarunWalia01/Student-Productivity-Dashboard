@@ -1,7 +1,9 @@
 .dashboard {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #567bd8 0%, #201829 100%);
+  background: 
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
+  url("/WhatsApp\ Image\ 2026-04-18\ at\ 7.58.15\ PM.jpeg") no-repeat center/cover;
   padding: 40px 20px;
 }
 

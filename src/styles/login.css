@@ -5,12 +5,14 @@
   justify-content: center;
   padding: 40px 20px;
   /* background: radial-gradient(circle at top, rgba(102, 126, 234, 0.18), transparent 40%), #f5f5f7; */
-  background: linear-gradient(135deg, #567bd8 0%,#201829 100%);
+  background: 
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
+  url("/WhatsApp\ Image\ 2026-04-18\ at\ 7.58.15\ PM.jpeg") no-repeat center/cover;
 }
 
 .login-card {
   width: min(520px, 100%);
-  background: black;
+  /* background: black; */
   border-radius: 24px;
   padding: 40px 34px;
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
