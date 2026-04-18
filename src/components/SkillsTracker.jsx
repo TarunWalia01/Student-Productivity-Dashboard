@@ -78,12 +78,12 @@ function SkillsTracker() {
   };
 
   const getBadge = (level) => {
-    if (level >= 95) return { name: "Master", icon: "👑", color: "#FFD700" };
-    if (level >= 90) return { name: "Expert", icon: "🏆", color: "#C0C0C0" };
-    if (level >= 80) return { name: "Advanced", icon: "⭐", color: "#CD7F32" };
-    if (level >= 70) return { name: "Proficient", icon: "🎯", color: "#4169E1" };
-    if (level >= 50) return { name: "Intermediate", icon: "📈", color: "#32CD32" };
-    return { name: "Beginner", icon: "🌱", color: "#FF6347" };
+    if (level >= 95) return { name: "Master", color: "#FFD700" };
+    if (level >= 90) return { name: "Expert", icon: "", color: "#C0C0C0" };
+    if (level >= 80) return { name: "Advanced", icon: "", color: "#CD7F32" };
+    if (level >= 70) return { name: "Proficient", icon: "", color: "#4169E1" };
+    if (level >= 50) return { name: "Intermediate", icon: "", color: "#32CD32" };
+    return { name: "Beginner", icon: "", color: "#FF6347" };
   };
 
   const getCategory = (level) => {
