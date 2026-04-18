@@ -1,6 +1,7 @@
 .admin-dashboard {
   width: 100%;
   padding: 40px 20px;
+  background: linear-gradient(135deg, #567bd8 0%, #201829 100%);
 }
 
 .admin-header {
@@ -13,13 +14,13 @@
 
 .admin-header h1,
 .admin-header p {
-  color: #1f2a56;
+  color: white;
 }
 
 .admin-header p {
   max-width: 680px;
   line-height: 1.8;
-  color: #505877;
+  color: white;
 }
 
 .admin-grid {
@@ -30,7 +31,8 @@
 
 .student-list-panel,
 .student-detail-panel {
-  background: white;
+  background: black;
+  /* background: linear-gradient(135deg, #667eea, #0a0114); */
   border-radius: 22px;
   padding: 24px;
   box-shadow: 0 18px 40px rgba(26, 47, 109, 0.08);
@@ -188,7 +190,8 @@
 
 .chart-fill {
   height: 100%;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  /* background: linear-gradient(135deg, #667eea, #764ba2); */
+  background: black;
 }
 
 .admin-notes {
