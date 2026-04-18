@@ -56,7 +56,7 @@
 .student-list-panel h2,
 .detail-card h2 {
   margin-bottom: 18px;
-  color: #1f2a56;
+  color: #667eea;
 }
 
 .student-list {
@@ -239,7 +239,9 @@
   padding: 14px 22px;
   border-radius: 16px;
   border: none;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  /* background: linear-gradient(135deg, #667eea, #764ba2); */
+  background: black;
+  /* background: color(srgb #667eea); */
   color: white;
   font-weight: 700;
 }
@@ -259,7 +261,7 @@
   font-weight: 700;
   border: none;
   border-radius: 16px;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #030305, #100a16);
   color: white;
   cursor: pointer;
   transition: transform 0.25s ease;
