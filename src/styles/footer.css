@@ -1,0 +1,28 @@
+.footer {
+  background: linear-gradient(135deg, #222328 0%, #2d2831 100%);
+  padding: 30px 20px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.1);
+  position: static;
+  width: 100%;
+}
+
+.footer p {
+  margin: 10px 0;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.footer p:first-child {
+  margin-top: 0;
+  font-size: 0.95em;
+  opacity: 0.9;
+}
+
+.footer p:last-child {
+  margin-bottom: 0;
+  font-size: 0.9em;
+  font-weight: 500;
+}

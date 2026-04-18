@@ -1,0 +1,275 @@
+.admin-dashboard {
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 34px;
+}
+
+.admin-header h1,
+.admin-header p {
+  color: #1f2a56;
+}
+
+.admin-header p {
+  max-width: 680px;
+  line-height: 1.8;
+  color: #505877;
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 24px;
+}
+
+.student-list-panel,
+.student-detail-panel {
+  background: white;
+  border-radius: 22px;
+  padding: 24px;
+  box-shadow: 0 18px 40px rgba(26, 47, 109, 0.08);
+}
+
+.student-list-top {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.student-list-top input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #dfe3f0;
+  border-radius: 14px;
+  font-size: 0.95rem;
+  color: #1f2a56;
+}
+
+.student-list-panel h2,
+.detail-card h2 {
+  margin-bottom: 18px;
+  color: #1f2a56;
+}
+
+.student-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.student-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px;
+  border-radius: 18px;
+  border: 1px solid #eef1fb;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.student-list li.selected,
+.student-list li:hover {
+  background: #f4f6ff;
+  transform: translateY(-1px);
+}
+
+.student-list li strong {
+  display: block;
+  font-size: 1rem;
+  color: #1f2a56;
+}
+
+.student-list li span {
+  display: block;
+  font-size: 0.9rem;
+  color: #6d7191;
+}
+
+.student-score {
+  font-weight: 700;
+  color: #667eea;
+}
+
+.detail-card {
+  display: grid;
+  gap: 24px;
+}
+
+.detail-card-head {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.detail-card-head h2 {
+  margin: 0;
+}
+
+.detail-card-head span {
+  color: #6d7191;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.detail-grid div {
+  background: #f6f8ff;
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.detail-grid h3 {
+  margin-bottom: 8px;
+  color: #333b6b;
+}
+
+.detail-grid p {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #1f2a56;
+}
+
+.detail-summary {
+  background: #f5f7ff;
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.detail-summary h3 {
+  margin-bottom: 10px;
+  color: #1f2a56;
+}
+
+.detail-summary p {
+  margin: 0;
+  color: #515976;
+  line-height: 1.75;
+}
+
+.performance-chart {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: inset 0 0 0 1px #e8ecf7;
+}
+
+.performance-chart h3 {
+  margin-bottom: 16px;
+  color: #1f2a56;
+}
+
+.chart-row {
+  display: grid;
+  grid-template-columns: 120px 1fr 60px;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.chart-bar {
+  height: 12px;
+  border-radius: 999px;
+  background: #eef2ff;
+  overflow: hidden;
+}
+
+.chart-fill {
+  height: 100%;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.admin-notes {
+  margin-top: 24px;
+  background: #f8f9ff;
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.admin-notes h3 {
+  margin-bottom: 14px;
+  color: #1f2a56;
+}
+
+.notes-list {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.note-item {
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: white;
+  border: 1px solid #e6e9f6;
+  color: #343a5f;
+}
+
+.note-empty {
+  color: #6f7587;
+}
+
+.admin-notes textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #dfe3f0;
+  border-radius: 14px;
+  resize: vertical;
+  font-size: 0.95rem;
+  color: #1f2a56;
+  margin-bottom: 14px;
+}
+
+.note-button {
+  padding: 14px 22px;
+  border-radius: 16px;
+  border: none;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-weight: 700;
+}
+
+.note-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.admin-actions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.reward-button {
+  padding: 14px 24px;
+  font-weight: 700;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.reward-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background: #b4b9cf;
+}
+
+@media (max-width: 980px) {
+  .admin-grid {
+    grid-template-columns: 1fr;
+  }
+}
