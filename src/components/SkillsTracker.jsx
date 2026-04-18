@@ -246,12 +246,11 @@ function SkillsTracker() {
               })}
           </div>
         </div>
-        
       )))}
 
       <div className="skills-summary">
         <div className="summary-card">
-          <h4>🎯 Skill Recommendations</h4>
+          <h4> Skill Recommendations</h4>
           <ul>
             <li>Master TypeScript for better code quality</li>
             <li>Learn Docker for containerization</li>
@@ -261,7 +260,7 @@ function SkillsTracker() {
         </div>
 
         <div className="summary-card">
-          <h4>📈 Learning Path</h4>
+          <h4> Learning Path</h4>
           <div className="learning-path">
             <div className="path-item completed">
               <span>HTML/CSS Basics</span>
@@ -273,7 +272,7 @@ function SkillsTracker() {
             </div>
             <div className="path-item in-progress">
               <span>React Advanced</span>
-              <span>⏳</span>
+              <span></span>
             </div>
             <div className="path-item pending">
               <span>Node.js Backend</span>

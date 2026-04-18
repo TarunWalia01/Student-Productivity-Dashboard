@@ -143,7 +143,7 @@ function JobOpportunities() {
             <div key={job.id} className={`job-card ${job.applied ? "applied" : ""}`}>
               <div className="job-header">
                 <div className="job-company-section">
-                  <span className="company-logo">{job.logo}</span>
+                  {/* <span className="company-logo">{job.logo}</span> */}
                   <div>
                     <h3>{job.company}</h3>
                     <p className="job-position">{job.position}</p>
@@ -158,9 +158,9 @@ function JobOpportunities() {
               <p className="job-description">{job.description}</p>
 
               <div className="job-details">
-                <span className="detail">📍 {job.location}</span>
-                <span className="detail">💰 {job.salary}</span>
-                <span className="detail">📅 Posted: {job.date}</span>
+                <span className="detail"> {job.location}</span>
+                <span className="detail"> {job.salary}</span>
+                <span className="detail"> Posted: {job.date}</span>
               </div>
 
               <div className="job-skills">
@@ -181,8 +181,8 @@ function JobOpportunities() {
                 >
                   {job.applied ? "✓ Applied" : "Apply Now"}
                 </button>
-                <button className="btn-save">❤️ Save</button>
-                <button className="btn-share">📤 Share</button>
+                <button className="btn-save">Save</button>
+                <button className="btn-share"> Share</button>
               </div>
             </div>
           ))
@@ -194,7 +194,7 @@ function JobOpportunities() {
       </div>
 
       <div className="job-tips">
-        <h3>📌 Application Tips</h3>
+        <h3>Application Tips</h3>
         <ul>
           <li>Customize your resume for each position</li>
           <li>Research the company before applying</li>
